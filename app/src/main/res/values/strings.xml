@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Flowers</string>
+    <string name="pflower">Flowerssss</string>
+    <string name="ptree">Treeeee</string>
+    <string name="my_collection">My Collection</string>
+    <string name="pick_flower">Pick Flowers</string>
+    <string name="choose">choose</string>
+    <string name="pick_tree">Pick Tree</string>
+    <string name="rose">Rose</string>
+    <string name="daisy">Daisy</string>
+    <string name="orchid">Orchid</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="submitBTN">Submit</string>
+    <string name="cancelBTN">Cancel</string>
+    <string name="sun_flower">Sun Flower</string>
+    <string name="lily">Lily</string>
+    <string name="violet">Violet</string>
+    <string name="tulip">Tulip</string>
+    <string name="iris">Iris</string>
+    <string name="pine">Pine</string>
+    <string name="palm_tree">Palm Tree</string>
+    <string name="sugarcane">Sugarcane</string>
+    <string name="coconut_tree">Coconut Tree</string>
+    <string name="papaya_tree">Papaya Tree</string>
+    <string name="mango_tree">Mango Tree</string>
+    <string name="mapel_tree">Mapel Tree</string>
+    <string name="pick_trees">Pick Trees</string>
+    <string name="japanese_tree">Japanese Tree</string>
+    <string name="pick_flowers">Pick Flowers</string>
+
+</resources>

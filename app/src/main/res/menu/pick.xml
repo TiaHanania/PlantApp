@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pflower"
+        android:title= "@string/pick_flower"
+        android:icon="@drawable/baseline_local_florist_24"
+
+        />
+
+    <item
+        android:id="@+id/ptree"
+        android:title="@string/pick_tree"
+        android:icon="@drawable/baseline_local_florist_24"
+        />
+</menu>

@@ -1,0 +1,116 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BADC86"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/pick_trees"
+        android:textAlignment="center"
+        android:textColor="#0E5C22"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rating1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title1">
+
+        <RadioButton
+            android:id="@+id/palm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/palm_tree" />
+
+        <RadioButton
+            android:id="@+id/mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/mango_tree" />
+
+        <RadioButton
+            android:id="@+id/sugarcane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/sugarcane" />
+
+        <RadioButton
+            android:id="@+id/pine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/pine" />
+
+        <RadioButton
+            android:id="@+id/papaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/papaya_tree" />
+
+        <RadioButton
+            android:id="@+id/mapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/mapel_tree" />
+
+        <RadioButton
+            android:id="@+id/cocnut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/coconut_tree" />
+
+        <RadioButton
+            android:id="@+id/japanese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0E5C22"
+            android:text="@string/japanese_tree" />
+
+    </RadioGroup>
+
+    ♦
+
+    <Button
+        android:id="@+id/cancelBT"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/submitBT"
+        app:layout_constraintTop_toBottomOf="@+id/rating1" />
+
+    <Button
+        android:id="@+id/submitBT"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/submit"
+        app:layout_constraintEnd_toStartOf="@+id/cancelBT"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rating1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
